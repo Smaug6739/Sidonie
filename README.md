@@ -56,17 +56,17 @@ const database = new Sidonie("/path/to/database.json");
   - [warn](#warn)
   - [error](#error)
 
-### Properties
+## Properties
 
-#### path
+### path
 
 Return the path of the json file.
 
 Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-### Methods
+## Methods
 
-#### [async] fetch()
+### [async] fetch()
 
 This method will fetch the json file and return the data.
 
@@ -76,7 +76,7 @@ Type: Any
 const data = await database.fetch();
 ```
 
-#### [async] getAll()
+### [async] getAll()
 
 - **Parameters**
   - `fetch`: If the function need to fetch file when cache is outdated. Type: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
@@ -89,7 +89,7 @@ Type: Any
 const data = await database.getAll(true);
 ```
 
-#### [async] get()
+### [async] get()
 
 - **Parameters**
   - `item`: The item to get in file. Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
@@ -103,7 +103,7 @@ Type: Any
 const data = await database.get("users", true);
 ```
 
-#### [async] setData()
+### [async] setData()
 
 - **Parameters**
   - `data`: The data to save. Type: Any
@@ -125,7 +125,7 @@ const data = await database.setData(
 );
 ```
 
-#### [async] saveData()
+### [async] saveData()
 
 - **Parameters**
   - `data`: The data to save. Type: Any

@@ -1,3 +1,3 @@
-export interface IObject {
-	[key: string]: any
+export interface JsonData {
+  [key: string]: any;
 }

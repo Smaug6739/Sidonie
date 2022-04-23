@@ -2,13 +2,14 @@
   "name": "sidonie",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "typings/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:typings": "tsc --build tsconfig.typings.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^15.0.1"
+    "@types/node": "^16.11.27"
   }
 }

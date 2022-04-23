@@ -1,15 +1,33 @@
 {
   "name": "sidonie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sidonie is a prototype of module for manipulate json data.",
   "main": "dist/index.js",
   "types": "typings/index.d.ts",
   "scripts": {
     "build:typings": "tsc --build tsconfig.typings.json"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Smaug6739",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.27"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smaug6739/Sidonie.git"
+  },
+  "keywords": [
+    "json",
+    "database",
+    "data",
+    "typescript",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/Smaug6739/Sidonie/issues"
+  },
+  "homepage": "https://github.com/Smaug6739/Sidonie#readme"
 }

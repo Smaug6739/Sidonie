@@ -1,5 +1,5 @@
-import { stat, readFile, writeFile } from "fs/promises";
-import { EventEmitter } from "events";
+import { stat, readFile, writeFile } from "node:fs/promises";
+import { EventEmitter } from "node:events";
 
 import type { JsonData } from "./types";
 

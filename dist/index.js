@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const promises_1 = require("fs/promises");
-const events_1 = require("events");
-class Sidonie extends events_1.EventEmitter {
+const promises_1 = require("node:fs/promises");
+const node_events_1 = require("node:events");
+class Sidonie extends node_events_1.EventEmitter {
     constructor(path) {
         super();
         this.needFetch = true;

@@ -25,6 +25,20 @@ npm install sidonie
 yarn add sidonie
 ```
 
+### Importation
+
+#### CommonJS syntax
+
+```js
+const { Sidonie } = require("@smaug6739/sidonie");
+```
+
+#### Ecama script modules syntax
+
+```js
+import { Sidonie } from "@smaug6739/sidonie";
+```
+
 ## Usage
 
 ### Create a new instance

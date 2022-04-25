@@ -3,7 +3,7 @@ import { EventEmitter } from "node:events";
 
 import type { JsonData } from "./types";
 
-export default class Sidonie extends EventEmitter {
+export class Sidonie extends EventEmitter {
   private path: string;
   private cache: JsonData | null;
   private needFetch: boolean = true;

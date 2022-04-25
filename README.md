@@ -16,13 +16,13 @@ This instructions will help you to get started with Sidonie.
 #### Using npm
 
 ```bash
-npm install @smaug6739/sidonie@1.1.0
+npm install @smaug6739/sidonie
 ```
 
 #### Using yarn
 
 ```bash
-yarn add @smaug6739/sidonie@1.1.0
+yarn add @smaug6739/sidonie
 ```
 
 ## Usage

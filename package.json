@@ -8,6 +8,7 @@
     "registry": "https://npm.pkg.github.com/Smaug6739"
   },
   "scripts": {
+    "build": "tsc",
     "build:typings": "tsc --build tsconfig.typings.json"
   },
   "author": "Smaug6739",

@@ -1,6 +1,6 @@
-import db from "../../";
+import { Sidonie } from "../../";
 import { join } from "path";
-const database = new db(join(__dirname, "../db.sidonie.json"));
+const database = new Sidonie(join(__dirname, "../db.sidonie.json"));
 
 database.on("warn", (warn) => {
   console.log(warn);

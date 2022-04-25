@@ -2,6 +2,12 @@
 
 **All notable changes to this project will be documented in this file.**
 
+## [[1.2.0]](https://github.com/Sheweny/framework/compare/v1.1.0...1.2.0) - April 25, 2022
+
+### Changed
+
+- Importation: Remove default export ([bade23a](https://github.com/Smaug6739/Sidonie/commit/bade23ab460c25e9d6bc0f23e451620a0a7335b8))
+
 ## [[1.1.0]](https://github.com/Sheweny/framework/compare/v1.0.0...1.1.0) - April 23, 2022
 
 ### Added

@@ -2,6 +2,9 @@
 
 Sidonie is a prototype of module for manipulate json data.
 
+> **Warning**  
+> You shouldn't use it in production with large amount of data
+
 ## Getting started
 
 This instructions will help you to get started with Sidonie.
